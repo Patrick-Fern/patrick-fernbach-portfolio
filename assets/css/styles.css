@@ -1,0 +1,59 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #3f8465;
+    color: #ce4c32;
+}
+
+.top-header h1 {
+    font-weight: bold;
+    font-size: 38px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.top-header nav {
+    display: flex;
+    align-items: center;
+}
+
+.top-header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.top-header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+    color: #ce4c32;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.lower-header {
+    background-image: url('../images/fern-forest.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.lower-header img {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: transparent 20px;
+    border-radius: 15px;
+}
+
+.lower-header h2 {
+    color: #eacabb;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
