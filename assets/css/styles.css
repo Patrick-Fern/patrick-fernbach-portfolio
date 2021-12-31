@@ -100,7 +100,7 @@
 .first-app-name {
     position: absolute;
     bottom: 35px;
-    left: 18px;
+    left: 20px;
     background-color: #eacabb;
     color: #3f8465;
     font-size: 18px;
@@ -130,7 +130,7 @@
 
 .h-app-name {
     position: absolute;
-    bottom: 75px;
+    bottom: 60px;
     left: 0px;
     background-color: #eacabb;
     color: #3f8465;
@@ -152,21 +152,16 @@
     color: #3f8465;
     width: 70%;
     font-size: 18px;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .contact-links nav {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .contact-links nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between flex-end;
-    align-items: flex-end;
     list-style: none;
 }
 
@@ -174,6 +169,86 @@
     padding: 10px 15px;
     font-size: 1.55vw;
     color: #3f8465;
-    justify-content: flex-end;
-    align-items: flex-end;
+}
+
+@media screen and (max-width: 980px) {
+    .top-header {
+        justify-content: center;
+    }
+    
+    .top-header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-header nav ul {
+        margin-top: 25px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .top-header nav ul li a {
+        font-size: 20px;
+    }
+
+    .lower-header {
+        justify-content: center;
+    }
+
+    .about, .work, .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title, .bio, .applications, .contact-links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .app-name {
+        left: 8px;
+    }
+
+    .wip {
+        left: 30px;
+    }
+
+    .h-app-name {
+        left: 0;
+        bottom: 75px;
+    }
+
+    .contact-links nav {
+        justify-content: center;
+    }
+
+    .contact-links nav ul li a {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .other-apps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .other-app {
+        max-width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+
+
+   .contact-links nav ul {
+       display: inline;
+       line-height: 1.5;
+       text-align: justify;
+   }
+
+    
 }
