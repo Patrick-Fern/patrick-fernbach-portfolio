@@ -90,10 +90,20 @@
 
 .first-app {
     padding: 20px;
+    position: relative;
 }
 .first-app img {
     max-height: 100%;
     max-width: 100%;
+}
+
+.first-app-name {
+    position: absolute;
+    bottom: 35px;
+    left: 18px;
+    background-color: #eacabb;
+    color: #3f8465;
+    font-size: 18px;
 }
 
 .other-apps {
@@ -104,11 +114,66 @@
 }
 
 .other-app {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 45%;
+    max-height: 45%;
+    position: relative;
+}
+
+.app-name {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    background-color: #eacabb;
+    color: #3f8465;
+    font-size: 18px;
+}
+
+.h-app-name {
+    position: absolute;
+    bottom: 75px;
+    left: 0px;
+    background-color: #eacabb;
+    color: #3f8465;
+    font-size: 18px;
 }
 
 .other-app  img{
     max-height: 100%;
     max-width: 100%;
+}
+
+.contact {
+    background-color: #ce4c32;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-links {
+    color: #3f8465;
+    width: 70%;
+    font-size: 18px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact-links nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact-links nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between flex-end;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.contact-links nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+    color: #3f8465;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
