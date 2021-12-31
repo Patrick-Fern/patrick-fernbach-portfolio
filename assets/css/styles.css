@@ -57,3 +57,58 @@
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.about {
+    background-color: #eacabb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    color: #43c0a0;
+    width: 20%;
+    font-size: 30px;
+}
+
+.bio {
+    color: #3f8465;
+    width: 70%;
+    font-size: 18px;
+}
+
+.work {
+    background-color: #1f3f3c;
+    display: flex;
+    justify-content: center;
+}
+
+.applications {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.first-app {
+    padding: 20px;
+}
+.first-app img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.other-apps {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.other-app {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.other-app  img{
+    max-height: 100%;
+    max-width: 100%;
+}
