@@ -17,4 +17,4 @@ https://github.com/Patrick-Fern/patrick-fernbach-portfolio
 ![Screen-shot-of-Patrick-Fernbach-portfolio](./assets/images/portfolioScreenshot.png)
 
 ## Contribution
-Made by Patrick Fernbach 
+Made by Patrick Fernbach ##
