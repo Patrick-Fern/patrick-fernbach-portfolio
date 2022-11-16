@@ -168,6 +168,10 @@
     flex-wrap: wrap;
 }
 
+.contact-title {
+    color: #000000;
+}
+
 .contact-links {
     color: var(--second-color);
     width: 70%;
